@@ -1,0 +1,117 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(50, 50, 50);
+  letter-spacing: 1px;
+}
+
+svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: rgb(50, 50, 50);
+  margin-right: 8px;
+}
+
+a {
+  color: rgb(0, 146, 208);
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.sub-header {
+  font-size: 22px;
+}
+
+.section {
+  margin-top: 32px;
+}
+.section header {
+  font-size: 28px;
+  font-weight: 600;
+}
+.section .content {
+  margin-top: 12px;
+}
+.section .content ul {
+  margin-left: 16px;
+}
+.section .content ul li {
+  line-height: 24px;
+}
+.section .content ul li span {
+  font-weight: 600;
+}
+
+.resume .resume--header {
+  padding: 24px 64px 8px;
+  border-bottom: 5px solid rgb(147, 147, 147);
+}
+.resume .resume--header header {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+}
+.resume .resume--header .contact-details {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+}
+.resume .resume--header .contact-details .contact-details--left {
+  flex-basis: 60%;
+}
+.resume .resume--header .contact-details .contact-details--left p {
+  margin-top: 8px;
+}
+.resume .resume--header .contact-details .contact-details--right {
+  flex-basis: 40%;
+}
+.resume .resume--header .contact-details .contact-details--right p {
+  margin-top: 8px;
+}
+.resume .resume--header .contact-details .contact-details--right p a.flex-center {
+  display: inline-flex;
+}
+.resume .resume--body {
+  padding: 0px 64px;
+  display: flex;
+  gap: 3%;
+}
+.resume .resume--body .left {
+  flex-basis: 60%;
+}
+.resume .resume--body .right {
+  flex-basis: 40%;
+}
+
+.linked-in svg {
+  fill: rgb(6, 90, 155);
+}
+
+.section.projects .content .project header.sub-header {
+  font-weight: 600;
+  font-size: 22px;
+}
+.section.projects .content, .section.education .content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.section.education .content .degree p {
+  line-height: 28px;
+}
+.section.education .content .degree p.sub-header.flex-center {
+  font-size: 18px;
+  justify-content: space-between;
+}
+.section.education .content .degree p span {
+  font-weight: 600;
+}
+.section.education .content .degree p small {
+  font-size: 14px;
+  color: rgb(80, 80, 80);
+}
